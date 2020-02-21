@@ -1,0 +1,12 @@
+[submodule "Influencer-hugo"]
+	path = Influencer-hugo
+	url = https://github.com/themefisher/Influencer-hugo.git
+[submodule "theme/influ"]
+	path = theme/influ
+	url = https://github.com/themefisher/Influencer-hugo.git
+[submodule "themes/influ"]
+	path = themes/influ
+	url = https://github.com/themefisher/Influencer-hugo.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
