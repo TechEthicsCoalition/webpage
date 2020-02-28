@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title   = "Hello Friend NG"
+baseURL = "https://techethicscoalition.github.io"
+title   = "Tech Ethics Coalition"
 
 DefaultContentLanguage = "en"
 
@@ -9,7 +9,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -38,7 +38,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "TEC"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -54,11 +54,11 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Nice theme for homepages and blogs"
+  description = "Tech Ethics Coalition"
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Hello Friend NG"
+  # homeSubtitle = "Hello Friend NG"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -78,7 +78,7 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
 
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   themeColor = "#252627"
 
   # Colors for favicons
@@ -88,10 +88,10 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "$ cd /home/"
+    logoText     = "TEC"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
+    logoCursorDisabled = true
     # Set to a valid CSS color to change the cursor in the logo.
     # logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
@@ -102,21 +102,21 @@ disableHugoGeneratorInject = false
     name = "twitter"
     url  = "https://twitter.com/"
 
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
+  #[[params.social]]
+  #  name = "email"
+  #  url  = "mailto:nobody@example.com"
 
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/"
+  #[[params.social]]
+  #  name = "github"
+  #  url  = "https://github.com/"
 
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
+  # [[params.social]]
+  #  name = "linkedin"
+  #  url  = "https://www.linkedin.com/"
 
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+  # [[params.social]]
+  #  name = "stackoverflow"
+  #  url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
@@ -138,3 +138,11 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+  [[menu.main]]
+      identifier = "events"
+      name       = "Events"
+      url        = "events/"
+    [[menu.main]]
+      identifier = "contact"
+      name       = "Contact"
+      url        = "contact/"
