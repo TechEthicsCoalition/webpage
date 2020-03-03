@@ -14,3 +14,7 @@
 	path = public
 	url = https://github.com/techethicscoalition/techethicscoalition.github.io.git
 	branch = master
+[submodule "public."]
+	path = public.
+	url = https://github.com/techethicscoalition/techethicscoalition.github.io.git
+	branch = master
