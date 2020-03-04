@@ -1,6 +1,6 @@
 baseURL = "https://techethicscoalition.github.io"
-# title   = "Tech Ethics Coalition"
-title   = ""
+title   = "Tech Ethics Coalition"
+#title   = ""
 
 DefaultContentLanguage = "en"
 

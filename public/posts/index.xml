@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on </title>
+        <title>Posts on Tech Ethics Coalition</title>
         <link>https://techethicscoalition.github.io/posts/</link>
-        <description>Recent content in Posts on </description>
+        <description>Recent content in Posts on Tech Ethics Coalition</description>
         <generator>Hugo -- gohugo.io</generator>
         <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://techethicscoalition.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
