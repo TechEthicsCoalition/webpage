@@ -1,5 +1,6 @@
 baseURL = "https://techethicscoalition.github.io"
-title   = "Tech Ethics Coalition"
+# title   = "Tech Ethics Coalition"
+title   = ""
 
 DefaultContentLanguage = "en"
 
@@ -58,6 +59,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
+
   # homeSubtitle = "Hello Friend NG"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -88,19 +90,20 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "TEC"
-    logoHomeLink = "/"
+    logoText     = ""
+    #logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     logoCursorDisabled = true
     # Set to a valid CSS color to change the cursor in the logo.
     # logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
+    #path = "/img/arrow.svg"
 
   # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
+  #[[params.social]]
+  #  name = "twitter"
+  #  url  = "https://twitter.com/"
 
   #[[params.social]]
   #  name = "email"
@@ -118,16 +121,16 @@ disableHugoGeneratorInject = false
   #  name = "stackoverflow"
   #  url  = "https://www.stackoverflow.com/"
 
-[languages]
-  [languages.en]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+#[languages]
+#  [languages.en]
+#    subtitle  = "Hello Friend NG Theme"
+#    weight    = 1
+#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+#  [languages.fr]
+#    subtitle  = "Hello Friend NG Theme"
+#    weight    = 2
+#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
