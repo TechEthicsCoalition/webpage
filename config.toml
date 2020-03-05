@@ -19,7 +19,7 @@ archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = "https://techethicscoalition.github.io"
+publishDir   = "techethicscoalition.github.io"
 
 buildDrafts  = false
 buildFuture  = false
