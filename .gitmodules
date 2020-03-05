@@ -18,3 +18,6 @@
 	path = public.
 	url = https://github.com/techethicscoalition/techethicscoalition.github.io.git
 	branch = master
+[submodule "TechEthicsCoalition.github.io"]
+	path = TechEthicsCoalition.github.io
+	url = https://github.com/TechEthicsCoalition/TechEthicsCoalition.github.io.git
